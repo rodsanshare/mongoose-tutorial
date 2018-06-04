@@ -4,7 +4,8 @@
   "description": "Tutorial from official site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/rodsanshare/mongoose-tutorial#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "mongoose": "^5.1.3"
   }
 }
