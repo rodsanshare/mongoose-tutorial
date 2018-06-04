@@ -23,6 +23,23 @@ db.once('open', function () {
     var silence = new Kitten({ name: 'Silence' });
     console.log(silence.name); // 'Silence'
 
+    // silence.save();
+
     var fluffy = new Kitten({ name: 'fluffy' });
     fluffy.speak(); // "Meow name is fluffy"
+
+    Kitten.find(function (err, kittens) {
+        if (err) return console.error(err);
+        console.log(kittens);
+    })
+
+    Kitten.find({ name: /^fluff/ }, function (err, kittens) {
+        if (err) return console.error(err);
+        console.log(kittens);
+    });
+
+    // fluffy.save(function (err, fluffy) {
+    //     if (err) return console.error(err);
+    //     fluffy.speak();
+    //   });
 });
