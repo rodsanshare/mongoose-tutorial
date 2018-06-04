@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial from official site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodsanshare/mongoose-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodsanshare/mongoose-tutorial/issues"
+  },
+  "homepage": "https://github.com/rodsanshare/mongoose-tutorial#readme",
+  "dependencies": {
+    "mongoose": "^5.1.3"
+  }
+}
