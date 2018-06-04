@@ -10,4 +10,4 @@ const Cat = mongoose.model('Cat', { name: String });
 Cat.find(function (err, kittens) {
     if (err) return console.error(err);
     console.log(kittens);
-  })
+});
